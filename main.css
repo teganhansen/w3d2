@@ -1,0 +1,79 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body {
+    background-color: rgb(253, 238, 209);
+}
+#problem1 {
+    background-color: #fcc735;
+    width: auto;
+    
+  }
+  
+#leftSide {
+    color: #ffffff;
+    position: absolute;
+    margin-left: 40px;
+    padding: 15px;
+  }
+  
+  #nav {
+    display: flex;
+    flex-grow: 1;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fcc735;
+    padding: 5px 0px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+   #nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    margin-right: 20px;
+    align-items: flex-start;
+  }
+  .card a {
+    padding: 5px 100px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #fcc735;
+    
+  }
+  h1 {
+    
+    text-align: left;
+  }
+  p {
+    text-align: left;
+    width: 225px;
+    padding: 25px;
+  }
+  #problem2 {
+    clear: both;
+    text-align: center;
+    
+  }
+  
+  #cardsContainer {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    border-radius: 6px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px #fcc735 solid;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+  }
